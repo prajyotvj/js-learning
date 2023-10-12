@@ -43,3 +43,30 @@ Return type of variables in JavaScript
        Function  =>  function
        Object  =>  object
 */
+
+
+// MEMORY 
+// Stack(Primitive)  , Heap(Non Primitive)
+
+// i.e  primitive datatypes are stored in stack whereas as non primitive in Heap
+
+let myYoutubename ="hiteshchoudharydotcom"
+
+let anothername =myYoutubename
+anothername ="chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+     email:"user@gmail.com",
+     upi:"user@ybl"
+}
+
+let userTwo = userOne
+
+ userTwo.email="hitesh@gmail.com" 
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
